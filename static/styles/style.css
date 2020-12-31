@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(255, 183, 0);
+}
+
+h1 {
+    color: rgb(164, 25, 131);
+}
+
+#new-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label {
+    color: #0346ab;
+
+}
