@@ -1,2 +1,2 @@
-# symptom-tracker-automation
-A small script to automate symptom tracking
+# Symptom Tracker Automation for UMBC Symptom Tracker
+*NOTE: This is a script for people who are healthy and have not come into contact, exposed, or contracted to COVID-19 within 14 days. If you find yourself coming down with symptoms, please fill out the form as intended with an accurate description of your symptoms.*
