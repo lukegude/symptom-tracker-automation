@@ -47,6 +47,5 @@ def load_user():
 if __name__ == "__main__":
     user = load_user()
     login(user.username, user.password, user.phone)
-    SymptomTrack()
 
 
