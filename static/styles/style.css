@@ -1,18 +1,31 @@
 body {
-    background-color: rgb(255, 183, 0);
+    min-height: 100vh;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
 
 h1 {
     color: rgb(164, 25, 131);
 }
 
-#new-button {
+
+#button-div {
+    margin-top: 10%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
 }
 
 #label {
-    color: #0346ab;
+    display: block;
+}
+
+#mainhead {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
+

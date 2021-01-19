@@ -4,31 +4,35 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UMBC Symptom Tracker Setup</title>
+    <title>Document</title>
     <link rel="stylesheet" href="{{url_for("static", filename='styles/style.css') }}">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@900&display=swap"
-        rel="stylesheet">
 
 </head>
 
 <body>
-
-
-    <div id="mainhead">
-        <div id = "label">
-            <h1>UMBC Symptom Tracker Setup</h1>
+<div>
+    <form method="POST">
+        <div class="form-group">
+            <label for="exampleInputEmail1">UMBC Email address</label>
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        <div id="button-div   ">
-            <a href="home"><input id="new-button-1" class="btn btn-primary" method="POST" type="button"
-                    value="Press me pls"></a>
-            <a href="new_user"><input id="new-button-2" class="btn btn-primary" method="POST" type="button"
-                    value="Setup"></a>
-
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1"
+                placeholder="Password">
         </div>
-    </div>
+        <div class="form-group">
+            <label for="phone">Phone-Number</label>
+            <input name="phone" type="phone" class="form-control" id="phone" placeholder="1234567890">
+        </div>
+        <input type="submit" class="btn btn-primary">
+    </form>
+</div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
